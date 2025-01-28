@@ -2,7 +2,7 @@
 name: Node.js CI
 
 # Trigger workflow on pushes and pull requests to the main branch
-on:
+on:   
   push:
     branches:
       - main
