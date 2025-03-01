@@ -1,9 +1,0 @@
-name: Minimal CI Check
-
-on: [push, pull_request]
-
-jobs:
-  minimal-check:
-    runs-on: self-hosted
-    steps:
-      - run: echo "Success"
